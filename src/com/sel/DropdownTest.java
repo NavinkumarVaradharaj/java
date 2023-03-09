@@ -21,7 +21,7 @@ public class DropdownTest {
 		
 		System.out.println(s.isMultiple());
 		s.selectByVisibleText("Computers & Accessories");
-		
+		driver.close();
 		
 	}
 

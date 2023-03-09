@@ -23,7 +23,7 @@ public class FindElementsTest {
 		for(int i =0;i<findElements.size();i++) {
 			System.out.println(findElements.get(i).getAttribute("class"));
 		}
-		
+		driver.close();
 	}
 
 }

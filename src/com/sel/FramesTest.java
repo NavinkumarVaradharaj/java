@@ -26,7 +26,7 @@ public class FramesTest {
 		driver.findElement(By.xpath("//img[@src='https://m.media-amazon.com/images/G/31/img19/AMS/Houseads/Laptops-Sept2019._CB436595915_.jpg']")).click();
 		
 		
-		
+		driver.close();
 		
 		
 		
